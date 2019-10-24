@@ -1,0 +1,40 @@
+{
+  "name": "bananaaishimnodejs",
+  "version": "1.0.0",
+  "description": "A generated IBM Cloud application",
+  "private": true,
+  "engines": {
+    "node": "^8.11.1"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "debug": "node --inspect=0.0.0.0:9229 server/server.js",
+    "debug:legacy": "node --debug=0.0.0.0:5858 server/server.js",
+    "test": "nyc mocha --exit",
+    "dev": "nodemon server/server.js"
+  },
+  "nodemonConfig": {
+    "env": {
+      "NODE_HEAPDUMP_OPTIONS": "nosignal"
+    }
+  },
+  "dependencies": {
+    "appmetrics-dash": "^4.0.0",
+    "appmetrics-prometheus": "^2.0.0",
+    "appmetrics-zipkin": "^1.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.15.3",
+    "ibm-cloud-env": "^0",
+    "log4js": "^3.0.5",
+    "mmmagic": "^0.5.2",
+    "multer": "^1.4.1",
+    "watson-developer-cloud": "^3.15.0"
+  },
+  "devDependencies": {
+    "appmetrics": "^4.0.1",
+    "chai": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.12.1",
+    "nyc": "^13.1.0"
+  }
+}

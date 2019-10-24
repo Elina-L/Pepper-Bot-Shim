@@ -1,0 +1,29 @@
+language: node_js
+node_js:
+  - "6"
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+    - sourceline: 'ppa:ubuntu-toolchain-r/test'
+    packages:
+    - gcc-4.8
+    - g++-4.8
+cache:
+  directories:
+    - node_modules
+before_install:
+  - sudo apt-get install -y libxml2-dev
+  - npm install -g swagger
+install:
+  - npm install
+before_script:
+  - npm run test
+notifications:
+  email:
+    recipients:
+      - Jonathan.Clow@ibm.com
+    on_success: change
+    on_failure: always
+  slack: newhiredevelopers:9lHaqWe0J5T1cv4iSGoltaR1
