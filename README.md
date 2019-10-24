@@ -76,9 +76,9 @@ tbd
 
 ## Contributors
 
-Jonathan Clow - [Jonathan.Clow@ibm.com](mailto:jonathan.clow@ibm.com)  
-Ian Dominguez - [Ian.Dominguez@ibm.com](mailto:Ian.Dominguez@ibm.com)  
-Elina Liu - [Elina@ibm.com](mailto:Elina@ibm.com)  
-Jared Ryan - [Jared.Michael.Ryan@ibm.com](mailto:Jared.Michael.Ryan@ibm.com)  
-Daniel Ruiz - [Daniel.Ruiz@ibm.com](mailto:Daniel.Ruiz@ibm.com)  
-Jun Yu - [junyu@ibm.com](mailto:junyu@ibm.com)  
+Jonathan Clow
+Elina Liu
+Ian Dominguez
+Jared Ryan
+Daniel Ruiz
+Jun Yu
